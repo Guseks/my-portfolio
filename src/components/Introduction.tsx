@@ -24,7 +24,7 @@ const Introduction = () => {
           </div>
         </div>
 
-        <img className="w-72 rounded-md" src={linkedInImage} />
+        <img className="w-96 rounded-md" src={linkedInImage} />
         <div className="text-stone-950 px-10 py-5 rounded-md flex flex-col gap-2">
           <h2 className="font-bold text-xl">Technical Experience</h2>
           <ul className="list-disc flex flex-col gap-2 ml-8 font-semibold">
