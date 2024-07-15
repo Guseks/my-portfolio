@@ -1,4 +1,3 @@
-import React from "react";
 import linkedInImage from "../assets/LinkedIn.jpg";
 
 const Introduction = () => {

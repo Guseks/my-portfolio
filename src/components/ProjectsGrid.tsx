@@ -1,4 +1,3 @@
-import React from "react";
 import weatherAppImage from "../assets/exampleWeather.png";
 import movieCollectionImage from "../assets/exampleMovieCollection.png";
 import starwarsImage from "../assets/exampleStarWarsAPI.png";
