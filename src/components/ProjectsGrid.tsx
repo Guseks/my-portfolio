@@ -20,7 +20,16 @@ const ProjectsGrid = () => {
             application uses the TMDB API.
           </p>
           <div className="flex gap-5 h-12 items-center font-semibold">
-            <button className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://github.com/Guseks/movie-collection",
+                  "_blank",
+                  "noopener"
+                )
+              }
+              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
+            >
               Repository
             </button>
             <button
@@ -50,7 +59,16 @@ const ProjectsGrid = () => {
             displayed by the frontend for the user to enjoy.
           </p>
           <div className="flex gap-5 h-12 items-center font-semibold">
-            <button className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://github.com/Guseks/weather-app",
+                  "_blank",
+                  "noopener"
+                )
+              }
+              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
+            >
               Repository
             </button>
             <button
@@ -77,7 +95,16 @@ const ProjectsGrid = () => {
             specified by the user.
           </p>
           <div className="flex gap-5 h-12 items-center font-semibold">
-            <button className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://github.com/Guseks/StarWars-API",
+                  "_blank",
+                  "noopener"
+                )
+              }
+              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
+            >
               Repository
             </button>
           </div>
@@ -94,10 +121,28 @@ const ProjectsGrid = () => {
             maintaining the state of each elevator.
           </p>
           <div className="flex gap-5 h-12 items-center font-semibold">
-            <button className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://github.com/Guseks/Elevator-App-MySQL",
+                  "_blank",
+                  "noopener"
+                )
+              }
+              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
+            >
               Repository (MySQL)
             </button>
-            <button className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://github.com/Guseks/Elevator-App-MongoDB",
+                  "_blank",
+                  "noopener"
+                )
+              }
+              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
+            >
               Repository (MongoDB)
             </button>
           </div>
