@@ -11,6 +11,9 @@ export default {
       },
       
     },
+    screens: {
+      'laptop': '1400px'
+    }
   },
   plugins: [],
 }

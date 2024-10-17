@@ -39,6 +39,8 @@ const Introduction = () => {
             <li>Tailwind</li>
             <li>C++</li>
             <li>Java</li>
+            <li>C# and .NET</li>
+            <li>Docker</li>
           </ul>
         </div>
       </div>
