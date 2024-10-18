@@ -19,6 +19,9 @@ const ProjectsGrid = () => {
             application enables the user to find movies based on genre. The
             application uses the TMDB API.
           </p>
+          <p className="font-semibold text-sm">
+            Technologies used: Typescript, NodeJS, Tailwind
+          </p>
           <div className="flex gap-5 h-12 items-center font-semibold">
             <button
               onClick={() =>
@@ -58,6 +61,9 @@ const ProjectsGrid = () => {
             then handled and processed by the backend. This data is then
             displayed by the frontend for the user to enjoy.
           </p>
+          <p className="font-semibold text-sm">
+            Technologies used: Typescript, React, Node, Tailwind
+          </p>
           <div className="flex gap-5 h-12 items-center font-semibold">
             <button
               onClick={() =>
@@ -94,11 +100,14 @@ const ProjectsGrid = () => {
             interacts with external API to gather information about characters
             specified by the user.
           </p>
+          <p className="font-semibold text-sm">
+            Technologies used: JavaScript, React, C#/.NET, Bootstrap
+          </p>
           <div className="flex gap-5 h-12 items-center font-semibold">
             <button
               onClick={() =>
                 window.open(
-                  "https://github.com/Guseks/StarWars-API",
+                  "https://github.com/Guseks/CsharpStarwarsAPI",
                   "_blank",
                   "noopener"
                 )
@@ -119,6 +128,9 @@ const ProjectsGrid = () => {
             Node.js and utilizes MySQL or MongoDB for data storage. It allows
             tracking elevator movements, handling elevator calls, and
             maintaining the state of each elevator.
+          </p>
+          <p className="font-semibold text-sm">
+            Technologies used: JavaScript, React, Node, Bootstrap
           </p>
           <div className="flex gap-5 h-12 items-center font-semibold">
             <button
