@@ -11,7 +11,7 @@ const ProjectsGrid = () => {
         <div className=" rounded-md p-4 flex flex-col gap-4 bg-black border-2 border-regal-blue justify-between">
           <div className="flex justify-center ">
             <img
-              className="h-56 tablet:h-80 rounded-md"
+              className="h-40 tablet:h-80 rounded-md"
               src={movieCollectionImage}
             />
           </div>
@@ -55,7 +55,7 @@ const ProjectsGrid = () => {
         <div className=" rounded-md p-4 flex flex-col justify-between gap-4 bg-black border-2 border-regal-blue text-xs tablet:text-sm">
           <div className="flex justify-center ">
             <img
-              className="h-56 tablet:h-80 rounded-md"
+              className="h-40 tablet:h-80 rounded-md"
               src={weatherAppImage}
             />
           </div>
@@ -99,7 +99,7 @@ const ProjectsGrid = () => {
         </div>
         <div className=" rounded-md p-4 flex flex-col gap-4 bg-black  border-2 border-regal-blue justify-between text-xs tablet:text-sm">
           <div className="flex justify-center ">
-            <img className="h-56 tablet:h-80 rounded-md" src={starwarsImage} />
+            <img className="h-40 tablet:h-80 rounded-md" src={starwarsImage} />
           </div>
           <p className="font-semibold text-sm">
             Application for managing a collection of star wars characters. App
@@ -128,7 +128,7 @@ const ProjectsGrid = () => {
         <div className=" rounded-md p-4 flex flex-col gap-4 bg-black border-2 border-regal-blue justify-between text-xs tablet:text-sm">
           <div className="flex justify-center ">
             <img
-              className="h-56 tablet:h-80 rounded-md"
+              className="h-40 tablet:h-80 rounded-md"
               src={elevatorImageMySQL}
             />
           </div>
@@ -138,6 +138,7 @@ const ProjectsGrid = () => {
             tracking elevator movements, handling elevator calls, and
             maintaining the state of each elevator.
           </p>
+
           <p className="font-semibold text-sm">
             Technologies used: JavaScript, React, Node, Bootstrap
           </p>
