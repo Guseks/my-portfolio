@@ -5,7 +5,7 @@ import elevatorImageMySQL from "../assets/exampleElevatorMySQL.png";
 
 const ProjectsGrid = () => {
   return (
-    <div className="w-3/4 bg-stone-950 p-10 rounded-md flex flex-col gap-4 ">
+    <div className="laptop:w-3/4 bg-stone-950 p-10 rounded-md flex flex-col gap-4 ">
       <h2 className="text-2xl px-4 font-bold">Projects</h2>
       <div className="gap-5 grid grid-cols-1 laptop:grid-cols-2">
         <div className=" rounded-md p-4 flex flex-col gap-4 bg-black border-2 border-regal-blue justify-between">

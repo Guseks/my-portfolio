@@ -12,7 +12,9 @@ export default {
       
     },
     screens: {
-      'laptop': '1700px'
+      'laptop': '1700px',
+      'mobile': '800px',
+      'tablet': '1100px'
     }
   },
   plugins: [],

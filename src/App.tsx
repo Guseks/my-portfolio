@@ -34,9 +34,6 @@ TODO: Create sections of portfolio:
 function App() {
   return (
     <div className="flex flex-col items-center gap-5">
-      <div className="w-full h-10 bg-stone-950 flex justify-center  items-center p-12 relative">
-        <p className="font-bold text-3xl">Portfolio - Gustaf Ekström</p>
-      </div>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
