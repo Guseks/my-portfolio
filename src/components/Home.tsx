@@ -10,7 +10,7 @@ const Home = () => {
       </div>
       <Introduction />
       <div className="w-full laptop:flex-row  flex-col flex gap-10 py-10 text-stone-200 px-8">
-        <div className="p-10 laptop:w-1/4 h-4/5 bg-stone-950 rounded-md flex flex-col gap-5">
+        <div className="p-7 laptop:w-1/4 h-4/5 bg-stone-950 rounded-md flex flex-col gap-5">
           <h2 className="text-2xl font-bold py-2 border-b-2">About me</h2>
           <div className="flex flex-col gap-3 text-sm">
             <p className="font-semibold">

@@ -5,12 +5,15 @@ import elevatorImageMySQL from "../assets/exampleElevatorMySQL.png";
 
 const ProjectsGrid = () => {
   return (
-    <div className="laptop:w-3/4 bg-stone-950 p-10 rounded-md flex flex-col gap-4 ">
+    <div className="laptop:w-3/4 bg-stone-950 p-5 rounded-md flex flex-col gap-4 ">
       <h2 className="text-2xl px-4 font-bold">Projects</h2>
       <div className="gap-5 grid grid-cols-1 laptop:grid-cols-2">
         <div className=" rounded-md p-4 flex flex-col gap-4 bg-black border-2 border-regal-blue justify-between">
           <div className="flex justify-center ">
-            <img className="h-80 rounded-md" src={movieCollectionImage} />
+            <img
+              className="h-56 tablet:h-80 rounded-md"
+              src={movieCollectionImage}
+            />
           </div>
           <p className="font-semibold text-sm">
             This application provides a way for the user to find new movies they
@@ -45,13 +48,16 @@ const ProjectsGrid = () => {
               }
               className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
             >
-              View live version
+              Live version
             </button>
           </div>
         </div>
         <div className=" rounded-md p-4 flex flex-col justify-between gap-4 bg-black border-2 border-regal-blue text-xs tablet:text-sm">
           <div className="flex justify-center ">
-            <img className="h-80 rounded-md" src={weatherAppImage} />
+            <img
+              className="h-56 tablet:h-80 rounded-md"
+              src={weatherAppImage}
+            />
           </div>
           <p className="font-semibold text-sm">
             This application is a weather app where the user can get the current
@@ -87,13 +93,13 @@ const ProjectsGrid = () => {
               }
               className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
             >
-              View live version
+              Live version
             </button>
           </div>
         </div>
         <div className=" rounded-md p-4 flex flex-col gap-4 bg-black  border-2 border-regal-blue justify-between text-xs tablet:text-sm">
           <div className="flex justify-center ">
-            <img className="h-80 rounded-md" src={starwarsImage} />
+            <img className="h-56 tablet:h-80 rounded-md" src={starwarsImage} />
           </div>
           <p className="font-semibold text-sm">
             Application for managing a collection of star wars characters. App
@@ -121,7 +127,10 @@ const ProjectsGrid = () => {
 
         <div className=" rounded-md p-4 flex flex-col gap-4 bg-black border-2 border-regal-blue justify-between text-xs tablet:text-sm">
           <div className="flex justify-center ">
-            <img className="h-80 rounded-md" src={elevatorImageMySQL} />
+            <img
+              className="h-56 tablet:h-80 rounded-md"
+              src={elevatorImageMySQL}
+            />
           </div>
           <p className="font-semibold text-sm">
             An application managing a fleet of elevators. The app is built using
@@ -141,7 +150,7 @@ const ProjectsGrid = () => {
                   "noopener"
                 )
               }
-              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
+              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200 text-xs"
             >
               Repository (MySQL)
             </button>
@@ -153,7 +162,7 @@ const ProjectsGrid = () => {
                   "noopener"
                 )
               }
-              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200"
+              className="bg-regal-blue p-2 px-4 rounded-md hover:outline-2 hover:outline outline-stone-200 text-xs"
             >
               Repository (MongoDB)
             </button>
