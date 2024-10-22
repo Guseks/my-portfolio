@@ -2,9 +2,9 @@ import linkedInImage from "../assets/LinkedIn.jpg";
 
 const Introduction = () => {
   return (
-    <div className="w-full flex justify-center border-b-4 border-regal-blue pb-10 pt-4">
-      <div className="flex flex-col tablet:flex-row justify-center tablet:gap-4 text-stone-950 rounded-md">
-        <img className="w-96 rounded-md" src={linkedInImage} />
+    <div className="w-full flex justify-center border-b-4 border-regal-blue pb-10 pt-4 px-4">
+      <div className="flex flex-col tablet:flex-row max-[800px]:items-center tablet:justify-center tablet:gap-4 text-stone-950 rounded-md">
+        <img className="w-72 tablet:w-96 rounded-md" src={linkedInImage} />
         <div className="text-stone-950 px-10 py-5 rounded-md flex flex-col gap-2">
           <h2 className="font-bold text-xl">Technical Experience</h2>
           <ul className="list-disc flex flex-col gap-2 ml-8 font-semibold">

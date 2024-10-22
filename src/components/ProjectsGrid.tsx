@@ -22,7 +22,7 @@ const ProjectsGrid = () => {
           <p className="font-semibold text-sm">
             Technologies used: Typescript, NodeJS, Tailwind
           </p>
-          <div className="flex gap-5 h-12 items-center font-semibold">
+          <div className="flex gap-5 tablet:h-12 items-center font-semibold text-xs tablet:text-sm">
             <button
               onClick={() =>
                 window.open(
@@ -49,7 +49,7 @@ const ProjectsGrid = () => {
             </button>
           </div>
         </div>
-        <div className=" rounded-md p-4 flex flex-col justify-between gap-4 bg-black border-2 border-regal-blue">
+        <div className=" rounded-md p-4 flex flex-col justify-between gap-4 bg-black border-2 border-regal-blue text-xs tablet:text-sm">
           <div className="flex justify-center ">
             <img className="h-80 rounded-md" src={weatherAppImage} />
           </div>
@@ -91,7 +91,7 @@ const ProjectsGrid = () => {
             </button>
           </div>
         </div>
-        <div className=" rounded-md p-4 flex flex-col gap-4 bg-black  border-2 border-regal-blue justify-between">
+        <div className=" rounded-md p-4 flex flex-col gap-4 bg-black  border-2 border-regal-blue justify-between text-xs tablet:text-sm">
           <div className="flex justify-center ">
             <img className="h-80 rounded-md" src={starwarsImage} />
           </div>
@@ -119,7 +119,7 @@ const ProjectsGrid = () => {
           </div>
         </div>
 
-        <div className=" rounded-md p-4 flex flex-col gap-4 bg-black border-2 border-regal-blue justify-between">
+        <div className=" rounded-md p-4 flex flex-col gap-4 bg-black border-2 border-regal-blue justify-between text-xs tablet:text-sm">
           <div className="flex justify-center ">
             <img className="h-80 rounded-md" src={elevatorImageMySQL} />
           </div>
