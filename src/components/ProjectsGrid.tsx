@@ -5,15 +5,12 @@ import elevatorImageMySQL from "../assets/exampleElevatorMySQL.png";
 
 const ProjectsGrid = () => {
   return (
-    <div className="laptop:w-3/4 bg-stone-950 p-5 rounded-md flex flex-col gap-4 ">
-      <h2 className="text-2xl px-4 font-bold">Projects</h2>
-      <div className="gap-5 grid grid-cols-1 laptop:grid-cols-2">
+    <div className="laptop:w-full bg-stone-950 px-7 py-10 rounded-md flex flex-col gap-4 ">
+      <h2 className="text-4xl px-4 font-bold">Projects</h2>
+      <div className="gap-5 grid grid-cols-1 tablet:grid-cols-2">
         <div className=" rounded-md p-4 flex flex-col gap-4 bg-black border-2 border-regal-blue justify-between">
           <div className="flex justify-center ">
-            <img
-              className="h-40 tablet:h-80 rounded-md"
-              src={movieCollectionImage}
-            />
+            <img className=" rounded-md" src={movieCollectionImage} />
           </div>
           <p className="font-semibold text-sm">
             This application provides a way for the user to find new movies they
